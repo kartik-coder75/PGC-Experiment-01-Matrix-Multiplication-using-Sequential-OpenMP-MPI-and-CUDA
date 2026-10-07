@@ -1,0 +1,5 @@
+implementation,model,resources,execution_time_seconds,speedup,verification
+Sequential,Single CPU execution,1 core,244.120000,1.00,4000.00
+OpenMP,Shared memory,8 threads,30.830434,7.92,4000.00
+MPI,Distributed memory,4 processes / 4 VMs,92.979510,2.63,4000.00
+CUDA,GPU parallelism,NVIDIA RTX 4500 Ada,0.165004,1479.48,4000.00
